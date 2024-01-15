@@ -207,3 +207,117 @@ p.find-now {
 .destination-middle-images{
     margin: 24px 0;
 }
+
+/* styles for features section */
+section.features {
+    margin-bottom: 100px;
+}
+.features-content{
+    text-align: center;
+}
+.features-text {
+    margin: 24px 263px 48px 263px;
+}
+.features-two-card{
+    display: flex;
+    gap: 24px;
+}
+.left-card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+.right-card{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+.features-single-card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    width: 573px;
+    margin: 24px 266px 0 266px;
+}
+
+/* discount section styles */
+section.discount {
+    margin-bottom: 100px;
+}
+.discount-card-top{
+    display: flex;
+}
+.discount-content{
+    text-align: center;
+}
+.discount-text{
+    margin: 24px 263px 48px 263px;
+}
+.discount-top-text{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 8px;
+    margin-right: 24px;
+}
+.discount-top-bg{
+    background-image: url('../Images/Group\ 39.png');
+    border-radius: 16px;
+    display: block;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.discount-card {
+    width: 479px;
+    height: 289px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    position: absolute;
+    top: 56px;
+    right: 56px;
+}
+.discount-card-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 26px 0 16px 0;
+}
+.discount-price-range{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 16px 0 24px 0;
+}
+.book-now{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 25px;
+    border: none;
+}
+.book-now a{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+.discount-second-bg{
+    background-image: url('../Images/Group\ 40.png');
+}
+.second-card{
+    left: 56px;
+}
+.edit-primary-btn{
+    text-align: center;
+    margin-top: 48px;
+}
+
+/* video blog section styles */
