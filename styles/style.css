@@ -1,0 +1,209 @@
+/* shared css styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Mulish", sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.section-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.destination-title{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* nav css styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 50px 0;
+}
+.logo-text{
+    display: flex;
+    align-items: center;
+}
+.logo-text img{
+    width: 48px;
+    height: 56px;
+}
+.nav-item ul{
+    display: flex;
+    align-items: center;
+}
+.logo-name {
+    margin-left: 16px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.logo-name .logo-color{
+    color: #FF5400;
+}
+.nav-item ul li{
+    margin-left: 44px;
+}
+.nav-item ul li a{
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.3s ease-in;
+}
+.nav-item ul li a:hover{
+    color: #FF5400;
+}
+.primary-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    display: inline;
+    padding: 14px 34px;
+}
+
+/* styles for banner section */
+section.banner {
+    margin-bottom: 100px;
+}
+.banner-bg {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    display: block;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.banner-title {
+    padding-top: 106px;
+    padding-bottom: 24px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 247px;
+    padding-bottom: 48px; 
+}
+form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+    display: flex;
+    padding: 16px;
+}
+    section.banner {
+    margin-bottom: 100px;
+}
+input[type="text"], select{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+}
+input[type="text"]{
+    padding: 16px 0 16px 16px;
+}
+#When{
+    padding: 16px 74px 16px 16px;
+    margin-left: 30px;
+}
+#Type{
+    padding: 16px 35px 16px 16px;
+    margin-left: 30px;
+}
+.banner-form{
+    display: flex;
+}
+.form-button a{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.fa-solid.fa-magnifying-glass {
+    color: #fff;
+    padding-left: 35px;
+    padding: 16px 0 16px 35px;
+}
+p.find-now {
+    color: #fff;
+    padding: 16px 34px 16px 8px;
+}
+
+/* styles for popular section */
+.popular-content {
+    display: flex;
+    gap: 50px;
+}
+.popular-list-items li{
+    list-style:disc ;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+.popular-left-content p{
+    margin: 24px 0;
+}
+.primary-btn a{
+    color: #fff;
+}
+.popular-btn {
+    margin-top: 32px;
+}
+
+/* styles for destination section */
+.destination{
+    margin: 100px 0;
+}
+.destination-text{
+    margin:24px 263px 48px 263px ;
+}
+.destination-content {
+    text-align: center;
+}
+.destination-top-images, .destination-middle-images, .destination-bottom-images{
+    display: flex;
+    gap: 24px;
+}
+.destination-images {
+    position: relative;
+    text-align: center;
+}
+.destination-images img {
+    width: 100%;
+}
+.destination-middle-images{
+    margin: 24px 0;
+}
