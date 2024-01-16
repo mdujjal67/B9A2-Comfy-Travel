@@ -272,6 +272,7 @@
     }
     .newsletter-left input[type="text"], input[type="email"] {
         padding: 16px 25px 16px 20px;
+        width: 85%;
     }
     .sponsor-content {
         margin: 16px 0;
