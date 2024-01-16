@@ -144,6 +144,9 @@
     section.features {
         margin-bottom: 24px;
     }
+    section.discount {
+        margin-bottom: 24px;
+      }
     .discount-text {
         margin: 16px 0;
     }
@@ -167,19 +170,40 @@
         margin: 18px 0 8px 0;
     }
     .discount-card {
-        width: 305px;
-        height: 295px;
+        width: 190px;
+        height: auto;
+        padding: 30px;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .discount-top-bg{
+        background-position: bottom;
+    }
+    .discount-price-range {
+        margin: 16px 0 12px 0;
+      }
+    .book-now a {
+        font-size: 18px;
     }
     .book-now{
         padding: 8px 20px;
     }
+    .discount-text-hide{
+        display: none;
+    }
     .discount-price-range{
         font-size: 16px;
     }
-
-
-
-
+    .discount-top-text{
+        display: block;
+    }
+    .no-need{
+        display: none;
+    }
+    .popular-btn{
+        display: none;
+    }
 
     .video-streaming {
         flex-direction: column;
@@ -253,7 +277,15 @@
         margin: 16px 0;
     }
     .sponsor {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+    }
+    .sponsor-images {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+    .sponsor-images:last-child{
+        align-items: center;
+        justify-content: center;
     }
     .footer-part .footer-logo {
         padding-top: 33px;
@@ -277,27 +309,7 @@
         font-size: 14px;
         padding-bottom: 31px;
     }
-    .sponsor-images {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 14px;
-    }
-    .sponsor-images:last-child{
-        align-items: center;
-        justify-content: center;
-    }
 
 
-
-
-
-    
-
-
-
-
-    
-
-
-    
     
 }
