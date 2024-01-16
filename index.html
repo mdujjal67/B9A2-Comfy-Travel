@@ -11,14 +11,34 @@
     <script src="https://kit.fontawesome.com/58b6a44110.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
     <header>
         <div class="container">
+
+            <div class="for-mobile-size">
+                <div class="mobile-time">
+                    <p>9:41</p>
+                </div>
+                <div class="mobile-top-icons">
+                    <ul>
+                        <li><i class="fa-solid fa-signal"></i></li>
+                        <li><i class="fa-solid fa-wifi"></i></li>
+                        <li><i class="fa-solid fa-battery-full"></i></li>
+                    </ul>
+                </div>
+            </div>
+
             <nav>
-                <div class="logo-text">
-                    <img src="Images/Group 40071 (2).png" alt="logo">
-                    <h3 class="logo-name">Comfy <span class="logo-color">Travel</span></h3>
+                <div class="for-mobile-menu">
+                    <div class="logo-text">
+                        <img src="Images/Group 40071 (2).png" alt="logo">
+                        <h3 class="logo-name">Comfy <span class="logo-color">Travel</span></h3>
+                        <div class="mobile-menu-bar">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
                 </div>
                 <div class="nav-item">
                     <ul>
@@ -37,7 +57,7 @@
             <div class="container">
                 <banner class="banner-bg">
                     <h1 class="banner-title">Explore Your Travel</h1>
-                    <p class="banner-description">Are you stuck with your work? No worries, we are here to provide you the best trip for your vacation.So, book your destination</p>
+                    <p class="banner-description">Are you stuck with your work? No worries, we are here to provide you the best trip.</p>
                     <div class="banner-form">
                         <form action="#">
                             <input type="text" placeholder="Where go">
@@ -108,7 +128,7 @@
                     </div>
                 </div>
 
-                    <div class="destination-middle-images">
+                    <div class="destination-middle-images mobile-img">
                         <div class="destination-images">
                             <img src="Images/Rectangle 6.png" alt="srilanka">
                             <p class="destination-title">Srilanka</p>
@@ -124,7 +144,7 @@
                     </div>
 
                     <div class="destination-bottom-images">
-                        <div class="destination-images">
+                        <div class="destination-images mobile-img2">
                             <img src="Images/Rectangle 11.png" alt="bangladesh">
                             <p class="destination-title">Bangladesh</p>
                         </div>
@@ -236,23 +256,29 @@
 
                         <div class="discount-card">
                             <div class="discount-card-top">
-                                <div class="discount-top-icon">
-                                    <img src="icons/Frame.svg" alt="clock icon">
+                                <div class="clock-icon">
+                                    <div class="discount-top-icon">
+                                        <img src="icons/Frame.svg" alt="clock icon">
+                                    </div>
+                                    <div class="discount-top-text">
+                                        <p>7 Day / 6 Night</p>
+                                    </div>
                                 </div>
-                                <div class="discount-top-text">
-                                    <p>7 Day / 6 Night</p>
+                                <div class="people-icon">
+                                    <div class="discount-top-icon">
+                                        <img src="icons//Frame (1).svg" alt="people icon">
+                                    </div>
+                                    <div class="discount-top-text">
+                                        <p>Max:10</p>
+                                    </div>
                                 </div>
-                                <div class="discount-top-icon">
-                                    <img src="icons//Frame (1).svg" alt="people icon">
-                                </div>
-                                <div class="discount-top-text">
-                                    <p>Max:10</p>
-                                </div>
-                                <div class="discount-top-icon">
-                                    <img src="icons/Frame (2).svg" alt="clock icon">
-                                </div>
-                                <div class="discount-top-text">
-                                    <p>Malaysia</p>
+                                <div class="location-icon">
+                                    <div class="discount-top-icon">
+                                        <img src="icons/Frame (2).svg" alt="location icon">
+                                    </div>
+                                    <div class="discount-top-text">
+                                        <p>Malaysia</p>
+                                    </div>
                                 </div>
                             </div>
                             <h3 class="discount-card-title">Tour To Satorini</h3>
@@ -288,6 +314,9 @@
                 </div>
                 <div class="youtube-video">
                     <iframe width="610" height="424" src="https://www.youtube.com/embed/Cn4G2lZ_g2I?si=gq4bawsYCCyhq4LM&amp;start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="youtube-over-bg">
+                        <p class="video-over-text">Watch Our Mountain in <br class="bangladesh">Bangladesh</p>
+                    </div>
                 </div>
                </div>
             </div>
@@ -299,10 +328,10 @@
                     <div class="newsletter-left">
                         <h3 class="newsletter-title">Newsletter</h3>
                         <p class="newsletter-text">Get your daily dose of travel news & tips. Sign up today!</p>
-                        <hr>
-                            <input type="text" placeholder="Enter Your Name">
-                        <input type="email" placeholder="Enter Your Email">
-                        <button class="Subscribe primary-btn"><a href="#">Subscribe</a></button>
+                        <hr class="form-line">
+                            <input type="text" placeholder="Enter your name">
+                            <input type="email" placeholder="Enter your email">
+                            <button class="Subscribe primary-btn"><a href="#">Subscribe</a></button>
                     </div>
                     <div class="newsletter-right">
                         <img src="Images/Rectangle 8 (1).png" alt="newsletter">
@@ -310,6 +339,27 @@
                             <p class="sticky-offer-text">Travel.com</p>
                             <p class="sticky-offer-title">Save up to 70%</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sposnsor">
+            <div class="container">
+                <div class="sponsor-content">
+                    <h3 class="section-title">Our Sponsors</h3>
+                    <p class="sponsor-content">Running a youth sports organization can be expensive, so many administrators turn to sponsors to help raise money.</p>
+                </div>
+                <div class="sponsor-images">
+                    <img src="Images/sponsors/biman-bangladesh-airlines-logo.png" alt="logo">
+                    <img src="Images/sponsors/novoairpng.png" alt="logo">
+                    <img src="Images/sponsors/travel-bangladesh.png" alt="logo">
+                    <img src="Images/sponsors/World-Wide-Travel.png" alt="logo">
+                    <img src="Images/sponsors/us-bangla-airline.png" alt="logo">
+                </div>
+                <div class="sponsor-button sponsor-btn">
+                    <div class="primary-btn">
+                        <a href="#">See More</a>
                     </div>
                 </div>
             </div>
@@ -326,13 +376,13 @@
                     <p class="footer-text">All our staff have a vast knowledge of the island so feel free to ask away, our dedicated experienced staff are here to make your visit or stay on Praslin a memorable one.</p>
                     <div class="footer-social-icon">
                         <ul>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#" class="no-left-margin"><i class="fa-brands fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
                         </ul>
                     </div>
-                    <hr class="footer-border">
+                    <div class="footer-border"></div>
                     <p class="footer-copyright">2017, All Rights Reserved.</p>
                 </div>
             </div>

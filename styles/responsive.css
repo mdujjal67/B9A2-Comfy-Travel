@@ -1,0 +1,303 @@
+@media screen and (max-width:575px){
+    .for-mobile-size{
+        display: inline-block;
+    }
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .primary-btn{
+        padding: 13px 40px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .for-mobile-size{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .nav-item ul{
+        display: none;
+    }
+    .mobile-top-icons ul{
+        display: flex;    
+    }
+    .mobile-top-icons ul li{
+        margin-left: 5px;
+    }
+    .mobile-time p{
+        color: var(--Neutral-Dark-Color-Dark-100, #0E0E0E);
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: -0.3px;
+    }
+    .logo-text h3{
+        font-size: 21px;
+        margin-left: 10px;
+    }
+    .logo-text img {
+        max-width: 100%;
+    }
+    .logo-text{
+        margin-left: 20px;
+    }
+    .mobile-menu-bar{
+        display: inline-block;
+        right: 20px;
+        position: absolute;
+    }
+/* styles for banner  */
+    .banner-bg {
+        background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+        border-radius: 16px;
+        display: block;
+        max-width: 100%;
+        height: 500px;
+        text-align: center;
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .banner-title{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        padding-top: 32px;
+    }
+    .banner-description{
+        color: #FFF;
+        text-align: center;
+        font-weight: 400;
+        line-height: 21px;
+        padding: 0;
+        margin: 0 15px 32px 15px;
+    }
+    form{
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 25px;
+    }
+    input[type="text"] {
+        padding: 15px 0 15px 16px;
+    }
+    p.find-now {
+        padding: 15px 34px 15px 8px;
+    }
+    #When, #Type {
+        margin-left: 0;
+    }
+    .form-button a {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .fa-solid.fa-magnifying-glass {
+        padding: 16px 0 16px 0;
+    }
+    .popular-content {
+        gap: 25px;
+        flex-direction: column;
+    }
+    .section-title{
+        font-size: 20px;
+    }
+    .popular-left-content p {
+        margin: 16px 0;
+    }
+    .popular-right-img img {
+        width: 100%;
+    }
+    .popular-btn {
+        margin-bottom: 20px;
+    }
+    .destination {
+        margin: 24px 0;
+    }
+    .destination-text {
+        margin: 24px 0 16px 0;
+    }
+    .destination-top-images, .destination-middle-images, .destination-bottom-images {
+        gap: 16px;
+        flex-direction: column;
+    }
+    .destination-middle-images, .destination-bottom-images {
+        margin: 16px 0;
+    }
+    .features-text, .card-title{
+        margin: 16px 0;
+    }
+    .features-two-card {
+        gap: 16px;
+        flex-direction: column;
+    }
+    .card-description{
+        line-height: 24px;
+    }
+    .features-single-card {
+        width: auto;
+        margin: 0;
+        margin-top: 16px;
+    }
+    section.features {
+        margin-bottom: 24px;
+    }
+    .discount-text {
+        margin: 16px 0;
+    }
+    .discount-card {
+        width: auto;
+        height: auto;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        padding: 50px;
+        position: absolute;
+        top: 56px;
+        right: 56px;
+    }
+    .discount-top-text {
+        margin-right: 0;
+    }
+    .discount-card-title {
+        font-size: 20px;
+        margin: 18px 0 8px 0;
+    }
+    .discount-card {
+        width: 305px;
+        height: 295px;
+    }
+    .book-now{
+        padding: 8px 20px;
+    }
+    .discount-price-range{
+        font-size: 16px;
+    }
+
+
+
+
+
+    .video-streaming {
+        flex-direction: column;
+    }
+    .popular-bottom-text{
+        display: none;
+    }
+    .youtube-video iframe, .youtube-over-bg {
+        width: 280px;
+        height: 200px;
+    }
+    .video-over-text{
+        font-size: 20px;
+    }
+    .youtube-over-bg .bangladesh{
+        display: none;
+    }
+    .video-over-text{
+        top: 30%;
+        transform: translate(0, 0);
+        left: 0;
+        width: 276px;
+        line-height: 30px;
+    }
+    .newsletter-content {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .newsletter-left{
+        padding: 23px;
+    }
+    .newsletter-title{
+        font-size: 20px;
+    }
+    .newsletter-text{
+        margin: 8px 0 16px 0;
+        width: auto;
+    }
+    .newsletter-right img {
+        width: 100%;
+    }
+    .sticky-offer {
+        width: 170px;
+        height: 65px;
+    }
+    .sticky-offer-text{
+        font-size: 15.854px; 
+        margin-top: 7px;
+    }
+    .sticky-offer-title{
+        font-size: 19.138px;
+        margin-top: 0;
+        line-height: 1;
+        
+    }
+    .sticky-offer{
+        border-radius: 10px;
+    }
+    .sticky-offer {
+        right: 5px;
+       bottom: 16%;
+    }
+    section.newsletter {
+        margin-bottom: 24px;
+    }
+    .newsletter-left input[type="text"], input[type="email"] {
+        padding: 16px 25px 16px 20px;
+    }
+    .sponsor-content {
+        margin: 16px 0;
+    }
+    .sponsor {
+        margin-bottom: 30px;
+    }
+    .footer-part .footer-logo {
+        padding-top: 33px;
+        margin-left: 0;
+    }
+    .footer-text {
+        margin: 16px 30px;
+    }
+    .no-left-margin{
+        margin-left: 0 !important;
+    }
+    .footer-border{
+        width: 85%;
+        height: 1px;
+        background:rgba(19, 19, 24, 0.10);
+        margin: 0 auto;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .footer-copyright {
+        font-size: 14px;
+        padding-bottom: 31px;
+    }
+    .sponsor-images {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+    .sponsor-images:last-child{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+    
+    
+}
